@@ -69,3 +69,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  background: radial-gradient(ellipse at center, #23379a, #09133c);
+}
+
+.container {
+  background-color: white;
+  width: 900px;
+  height: 400px;
+  margin: 250px auto 0;
+  border: 10px solid #3561e8;
+  border-radius: 10px;
+}
+
+.generate {
+  margin: 50px auto;
+  display: block;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #423189;
+}
+
+.generate:hover {
+  background-color: rgba(75, 0, 130, 0.3);
+}
