@@ -1,4 +1,6 @@
 @import "zerostyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 body {
   background: radial-gradient(ellipse at center, #23379a, #09133c);
 }
@@ -22,4 +24,16 @@ body {
 }
 .generate:hover {
   background-color: rgba(75,0,130,0.3);
+}
+.quote {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 140px;
+  font-family: 'DynaPuff', cursive;
+}
+.author {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  font-family: 'Pacifico', cursive;
 }
